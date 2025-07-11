@@ -1,5 +1,3 @@
-# exercicioDeTestesAutomatizadosDeUnidade
-Exercício de aprendizado em JS com testes de unidade.
 # Exercício de Teste Unitário - Mentoria Júlio de Lima
 
 Este repositório faz parte da minha jornada de aprendizado na área de Qualidade de Software (QA), onde estou praticando conceitos ensinados na **Mentoria 2.0 do Júlio de Lima**.  
@@ -28,7 +26,9 @@ O foco deste exercício é a **automação de testes unitários** utilizando **J
 ---
 
 ## Estrutura do projeto
+```
 exercicioDeTestesAutomatizadosDeUnidade
+
 ├── node_modules/
 ├── src/
 │ └── pesquisar.js # Função que retorna dados de uma "pessoa" com base no CPF
@@ -38,18 +38,36 @@ exercicioDeTestesAutomatizadosDeUnidade
 ├── package.json
 ├── package-lock.json
 └── README.md
-
+```
 ---
 
 ## Como executar os testes
 
-1. Clone o repositório:
+1. Clone o repositório dentro da pasta desejada:
 ```bash
 git clone https://github.com/Neto-Accioly/exercicio-teste-unitario.git
-
-npm install
-
-node test/pesquisar.test.js
+````
+2. Inicialize o projeto Node.js (caso ainda não tenha o package.json):
+```bash
+npm init -y
+````
+3. Instale o Mocha como dependência de desenvolvimento:
+```bash   
+npm install --save-dev mocha
+```
+4. Configure o script de teste no package.json.
+No bloco "scripts", adicione:
+```bash
+"scripts": {
+  "test": "mocha"
+}
+   
+```
+5. Execute os testes com o comando:
+```bash
+npm test
+```
+   
 
 💬 Sobre o exercício
 Neste desafio, a proposta foi criar uma função pesquisarPessoasPorCPF, que busca uma pessoa com base no CPF em um array de objetos. Em seguida, foram implementados testes automatizados para garantir que:
