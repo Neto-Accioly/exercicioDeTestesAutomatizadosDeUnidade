@@ -1,0 +1,23 @@
+{
+  "name": "exerciciodetestesautomatizadosdeunidade",
+  "version": "1.0.0",
+  "description": "Exercício de aprendizado em JS com testes de unidade.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neto-Accioly/exercicioDeTestesAutomatizadosDeUnidade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neto-Accioly/exercicioDeTestesAutomatizadosDeUnidade/issues"
+  },
+  "homepage": "https://github.com/Neto-Accioly/exercicioDeTestesAutomatizadosDeUnidade#readme",
+  "dependencies": {
+    "mocha": "^11.7.1"
+  }
+}
