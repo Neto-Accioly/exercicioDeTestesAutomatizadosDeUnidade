@@ -46,11 +46,11 @@ exercicioDeTestesAutomatizadosDeUnidade
 1. Clone o repositório dentro da pasta desejada:
 ```bash
 git clone https://github.com/Neto-Accioly/exercicio-teste-unitario.git
-````
+```
 2. Inicialize o projeto Node.js (caso ainda não tenha o package.json):
 ```bash
 npm init -y
-````
+```
 3. Instale o Mocha como dependência de desenvolvimento:
 ```bash   
 npm install --save-dev mocha
