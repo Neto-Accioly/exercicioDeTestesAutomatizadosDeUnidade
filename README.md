@@ -27,8 +27,7 @@ O foco deste exercício é a **automação de testes unitários** utilizando **J
 
 ## Estrutura do projeto
 ```
-exercicioDeTestesAutomatizadosDeUnidade
-
+exercicio-2-de-testes-automatizados-de-unidade/
 ├── node_modules/
 ├── src/
 │ └── pesquisar.js # Função que retorna dados de uma "pessoa" com base no CPF
